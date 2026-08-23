@@ -1,0 +1,35 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "route_name": "Siargao Island Day (beach-focused)",
+        "notes": "Cloud 9 boardwalk → Guyam Island → Sugba Lagoon. Base yourself in General Luna; hire a tricycle/habal-habal and a boat for island hopping."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [126.1633, 9.8069],
+          [126.1519, 9.7736],
+          [126.0359, 9.6628]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "route_name": "Butuan Heritage & Nature Day (budget-friendly)",
+        "notes": "Balanghai Shrine → National Museum – Butuan → Agusan Marsh Wildlife Sanctuary. Doable in a day by tricycle/van from Butuan City, and the two museum stops are free."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [125.5636, 8.9581],
+          [125.5432, 8.9497],
+          [125.8667, 8.3167]
+        ]
+      }
+    }
+  ]
+}

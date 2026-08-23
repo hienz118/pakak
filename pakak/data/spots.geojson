@@ -1,0 +1,279 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "spot_name": "Cloud 9 Surfing Point",
+        "category": "beaches",
+        "municipality": "General Luna, Siargao, Surigao del Norte",
+        "description": "World-famous surf break reached by a wooden boardwalk over the reef, with a lively strip of cafes and surf schools right on shore.",
+        "entrance_fee": "Free to visit the boardwalk (board rental & lessons extra, from ~₱500)",
+        "best_season": "Dry season, Mar–Oct for calm viewing; Aug–Nov for the biggest waves",
+        "family_friendly": "Great for kids to watch surfers from the safe boardwalk deck; the reef break itself has strong currents and is for experienced surfers only — young swimmers are better off at nearby General Luna town beach.",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cloud%208%2C%20Siargao%20Island.jpg",
+        "image_credit": "Wikimedia Commons · CC BY-SA 4.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.1634,
+          9.8124
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "spot_name": "Anahawan Island",
+        "category": "beaches",
+        "municipality": "General Luna, Siargao, Surigao del Norte",
+        "description": "Anhawan Sunset Royal Beach Resort is a popular coastal destination located in Poblacion South, Oton, Iloilo, famous for its relaxing seaside ambiance and romantic views of the golden hour over the water.",
+        "entrance_fee": "~₱50 environmental fee (usually bundled into an island-hopping boat tour)",
+        "best_season": "mid-February to late April",
+        "family_friendly": "very family-friendly. It offers spacious grounds, a children's pool with slides, and a calm beachfront where families can relax, swim, and watch the red sunset.",
+        "image": "images/anahaw.jpg",
+        "image_credit": "Wikimedia Commons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.1294,
+          9.6031
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "spot_name": "Britania Group of Islands",
+        "category": "beaches",
+        "municipality": "San Agustin, Surigao del Sur",
+        "description": "A cluster of about 24 mostly uninhabited limestone islets scattered across Lianga Bay, with powdery white sand and turquoise water.",
+        "entrance_fee": "Free to low, varies by island; boat rental (per boat) required for island hopping",
+        "best_season": "Dry season, Mar–Oct",
+        "family_friendly": "Island-hopping by boat suits kids who enjoy short rides; supervise around the limestone rocks and shallow reef edges. No overnight camping is allowed, so it's a full-day trip only.",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Britania%20Is.jpg",
+        "image_credit": "Wikimedia Commons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.2214,
+          8.7437
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "spot_name": "Tinuy-an Falls",
+        "category": "waterfalls",
+        "municipality": "Bislig City, Surigao del Sur",
+        "description": "A three-tiered, 95-meter-wide curtain of water often called the 'Little Niagara of the Philippines,' with a wide basin below for swimming.",
+        "entrance_fee": "₱50 per person; parking ₱20–50",
+        "best_season": "Year-round (fed by a large watershed); a rainbow often appears 9–11 AM on sunny mornings",
+        "family_friendly": "The wide, shallow basin near the base is safe for supervised kids; cottages, restrooms, and life-vest rentals are all on site.",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tinuy-an%20Falls%2C%20Bislig%20City%2C%20Philippines.jpg",
+        "image_credit": "Wikimedia Commons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.2282,
+          8.1719
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "spot_name": "Hinatuan Enchanted River",
+        "category": "waterfalls",
+        "municipality": "Hinatuan, Surigao del Sur",
+        "description": "A strikingly deep-blue, spring-fed river that flows straight into the sea, famous for its clarity and a daily fish-feeding show at noon.",
+        "entrance_fee": "₱30–40 per person",
+        "best_season": "Dry season, Mar–Oct; visit early morning for the clearest water and smallest crowds",
+        "family_friendly": "A roped-off, railing-lined shallow area is set aside for swimming; life jackets are required for children and readily available for rent.",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hinatuan%20enchanted%20river.jpg",
+        "image_credit": "Wikimedia Commons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.3547,
+          8.4589
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "spot_name": "Agusan Marsh Wildlife Sanctuary",
+        "category": "mountains",
+        "municipality": "Bunawan, Agusan del Sur",
+        "description": "The Philippines' largest freshwater wetland and a Ramsar site, home to floating Manobo communities, herons, and migratory birds.",
+        "entrance_fee": "Small registration/guide fee; motorized canoe hire around ₱3,500 for up to 5 people",
+        "best_season": "Dry season, Apr–Sep for easier access; Nov–Mar shows the marsh at its fullest",
+        "family_friendly": "Guided boat or canoe tours are slow-paced and educational — good for kids curious about wildlife. Life vests are worn at all times; there is no swimming.",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Water%20Monitor%20%28about%201.5m%20long%29.jpg",
+        "image_credit": "Wikimedia Commons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.8667,
+          8.3167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "spot_name": "Sohoton Cove",
+        "category": "mountains",
+        "municipality": "Socorro (Bucas Grande Island), Surigao del Norte",
+        "description": "A hidden lagoon system of limestone caves, a stingless-jellyfish sanctuary, and turquoise tidal pools, reachable only by boat at low tide.",
+        "entrance_fee": "~₱800 consolidated eco-tourism/entrance fee per person, plus boat charter",
+        "best_season": "Dry season, Mar–Oct; access depends on the tide schedule, not just the season",
+        "family_friendly": "A full-day boat trip with several swimming stops; life jackets are required throughout. Best suited to kids age 7+ who are comfortable on boats for extended periods.",
+        "image": null,
+        "image_credit": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.9483,
+          9.6736
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "spot_name": "Sugba Lagoon",
+        "category": "mountains",
+        "municipality": "Del Carmen, Siargao, Surigao del Norte",
+        "description": "An emerald-green lagoon tucked inside a mangrove forest, with a floating boathouse, a jump platform, and kayaks, framed by limestone hills.",
+        "entrance_fee": "₱100 entrance + ₱50 environmental fee per person; boat charter roughly ₱1,600–2,150",
+        "best_season": "Dry season, Mar–Oct",
+        "family_friendly": "Calm, enclosed water is safer than open sea for kids; kayak and paddleboard rentals suit older children. Note the 3-hour visit limit per group.",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/SUGBA%20LAGOON%20%28MAY%202019%29.jpg",
+        "image_credit": "Wikimedia Commons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.9002,
+          9.9072
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "spot_name": "Balanghai Shrine (Butuan Boat Site Museum)",
+        "category": "heritage",
+        "municipality": "Barangay Libertad, Butuan City, Agusan del Norte",
+        "description": "A field museum built directly over the excavation site of the balangay boats — the oldest watercraft ever found in the Philippines, dated 4th–13th century AD.",
+        "entrance_fee": "Free (register at the logbook)",
+        "best_season": "Year-round; open Tuesday–Sunday, roughly 9 AM–4 PM (closed Mondays)",
+        "family_friendly": "Small, shaded, and easy to walk through in 30–45 minutes — a manageable, air-conditioned-adjacent stop for young kids. On-site guides are available.",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Balanghay.jpg",
+        "image_credit": "Wikimedia Commons · CC BY-SA 4.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.5636,
+          8.9581
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "spot_name": "National Museum – Butuan (Eastern-Northern Mindanao Regional Museum)",
+        "category": "heritage",
+        "municipality": "Butuan City, Agusan del Norte",
+        "description": "The Caraga branch of the National Museum, exhibiting Butuan's pre-colonial gold ornaments, Chinese trade-porcelain jars, and archaeological finds.",
+        "entrance_fee": "Free",
+        "best_season": "Year-round; open Tuesday–Sunday, roughly 9 AM–4 PM (closed Mondays)",
+        "family_friendly": "Indoor, air-conditioned, and low-key — a good rainy-day or midday-heat backup with restrooms, and short enough to hold kids' attention.",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Planks%20of%20a%20Butuan%20balangay%20in%20the%20Butuan%20National%20Museum.jpg",
+        "image_credit": "Wikimedia Commons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.5432,
+          8.9497
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "spot_name": "Lake Bababu",
+        "category": "mountains",
+        "municipality": "Basilisa, Dinagat Islands",
+        "description": "A rare meromictic lake tucked behind towering limestone walls, where a freshwater layer sits on top of seawater fed by the longest known underwater cave tunnel in the Philippines.",
+        "entrance_fee": "Small registration/guide fee at Babas Cove; ask at the Basilisa tourism office for current rates",
+        "best_season": "Dry season, Mar–Oct; calmer sea crossings in the morning",
+        "family_friendly": "Reached via a short boat ride to Babas Cove followed by an easy jungle trail — manageable for older kids, but the trail and cave-adjacent swimming area call for close supervision and life vests.",
+        "image": "images/kiki.jpg", 
+        "image_credit": "Photo by You"
+
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.5091,
+          10.0742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "spot_name": "PBMA Founder's Shrine",
+        "category": "heritage",
+        "municipality": "Barangay Aurelio, San Jose, Dinagat Islands",
+        "description": "A hilltop shrine and mausoleum built by the Philippine Benevolent Missionaries Association in honor of its founder, offering panoramic views over San Jose port and a window into Dinagat's distinctive local culture.",
+        "entrance_fee": "Free; modest dress code enforced (closed shoes and white for men, long dresses for women)",
+        "best_season": "Year-round; late afternoon is best for the sunset view over the port",
+        "family_friendly": "A short, quiet, uphill visit about 5 minutes from the San Jose port — easy for kids, but it's a working sacred site, so keep voices down and expect some areas off-limits to photos.",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Philippine%20Benevolent%20Missionaries%20Association%20Shrine%2C%20San%20Jose%2C%20Dinagat%20Islands%2C%20Philippines.jpg",
+        "image_credit": "Wikimedia Commons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.5811,
+          10.0047
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "spot_name": "Pangabangan Island Blue Lagoon (Tidal Pool)",
+        "category": "beaches",
+        "municipality": "Barangay Magsaysay, Libjo, Dinagat Islands",
+        "description": "A striking deep, aquamarine tidal pool formed where the sea floor suddenly drops inside an otherwise shallow, karst-ringed lagoon — one of the most photographed stops on Dinagat's Libjo island-hopping circuit.",
+        "entrance_fee": "~₱10–50 resort entrance fee, plus boat hire from Barangay Magsaysay",
+        "best_season": "Dry season, Mar–Oct; boat access depends on sea conditions",
+        "family_friendly": "The pool drops off steeply and is genuinely deep close to the edge, so young or non-swimming kids need life vests and constant supervision; open-air cottages are available for a shaded home base.",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pangabangan%20-%20panoramio.jpg",
+        "image_credit": "Wikimedia Commons · panoramio"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.5026,
+          10.1666
+        ]
+      }
+    }
+  ]
+}

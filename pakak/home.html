@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Caraga Region — A Family Travel Guide, Philippines</title>
+<meta name="description" content="Meet the Caraga Region: five provinces of beaches, waterfalls, rainforest, and heritage in northeastern Mindanao, Philippines — then explore the interactive family map." />
+
+<!-- Fonts: Fraunces (headings) + Space Grotesk (UI/body) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,800;1,9..144,500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css" />
+</head>
+<body class="home-page">
+
+<!-- Reusable icon sprite (same set used on the map page) -->
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+  <symbol id="icon-beaches" viewBox="0 0 24 24">
+    <path d="M2 20c1.8-1.4 3.2-1.4 5 0 1.8 1.4 3.2 1.4 5 0 1.8-1.4 3.2-1.4 5 0 1.8 1.4 3.2 1.4 5 0" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    <path d="M12 15V6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    <path d="M12 6c0 0-5-1-6 4 5 1 6-4 6-4Z" fill="currentColor"/>
+    <path d="M12 9c0 0 4.5-1.5 5.5 2.5-4.5 1-5.5-2.5-5.5-2.5Z" fill="currentColor"/>
+  </symbol>
+  <symbol id="icon-waterfalls" viewBox="0 0 24 24">
+    <path d="M6 3c0 3-2 4-2 7s2 4 2 7" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+    <path d="M12 3c0 3-2 4-2 7s2 4 2 7" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+    <path d="M18 3c0 3-2 4-2 7s2 4 2 7" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+    <path d="M2 20.5h20" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+  </symbol>
+  <symbol id="icon-mountains" viewBox="0 0 24 24">
+    <path d="M2 19 8.5 8l4 6.5L15 11l7 8Z" fill="currentColor" opacity="0.92"/>
+    <circle cx="17.5" cy="5.5" r="2.1" fill="currentColor"/>
+  </symbol>
+  <symbol id="icon-heritage" viewBox="0 0 24 24">
+    <path d="M3 17.5c3-2.4 6-3.6 9-3.6s6 1.2 9 3.6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    <path d="M4 17c1-5 4-9 8-11 4 2 7 6 8 11" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+    <circle cx="12" cy="8.4" r="1.3" fill="currentColor"/>
+  </symbol>
+  <symbol id="icon-route" viewBox="0 0 24 24">
+    <path d="M4 19c4-6 6 4 10-2 2-3 3-6 6-9" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="1.2 3.4"/>
+    <circle cx="4" cy="19" r="1.6" fill="currentColor"/>
+    <circle cx="20" cy="8" r="1.6" fill="currentColor"/>
+  </symbol>
+  <symbol id="icon-family" viewBox="0 0 24 24">
+    <circle cx="8" cy="7" r="2.3" fill="currentColor"/>
+    <circle cx="17" cy="8.2" r="1.8" fill="currentColor" opacity="0.75"/>
+    <path d="M3 20c0-3.6 2.2-5.8 5-5.8s5 2.2 5 5.8" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+    <path d="M14.5 20c0-2.8 1.4-4.6 3.5-4.6s3.5 1.8 3.5 4.6" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" opacity="0.75"/>
+  </symbol>
+  <symbol id="icon-arrow" viewBox="0 0 24 24">
+    <path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </symbol>
+</svg>
+
+<header class="home-hero">
+  <div class="home-hero-bg" aria-hidden="true">
+    <span class="drift drift-1"><svg viewBox="0 0 24 24"><use href="#icon-beaches"/></svg></span>
+    <span class="drift drift-2"><svg viewBox="0 0 24 24"><use href="#icon-waterfalls"/></svg></span>
+    <span class="drift drift-3"><svg viewBox="0 0 24 24"><use href="#icon-mountains"/></svg></span>
+    <span class="drift drift-4"><svg viewBox="0 0 24 24"><use href="#icon-heritage"/></svg></span>
+  </div>
+
+  <div class="home-hero-inner">
+    <span class="eyebrow">Region XIII · Northeastern Mindanao, Philippines</span>
+    <h1>Caraga <span class="brand-accent">Region</span></h1>
+    <p class="home-tagline">Surf breaks, curtain waterfalls, a marsh full of wildlife, and old river towns — five provinces, one wildly underrated corner of the Philippines.</p>
+
+    <div class="home-cta-row">
+      <a class="home-cta-primary" href="index.html">
+        <span>Explore the Caraga Map</span>
+        <svg viewBox="0 0 24 24"><use href="#icon-arrow"/></svg>
+      </a>
+      <a class="home-cta-secondary" href="#provinces">See the five provinces ↓</a>
+    </div>
+
+    <div class="home-stats">
+      <div class="stat"><strong class="count-up" data-target="5">0</strong><span>Provinces</span></div>
+      <div class="stat"><strong class="count-up" data-target="13">0</strong><span>Featured spots</span></div>
+      
+    </div>
+  </div>
+
+  <svg class="header-wave" viewBox="0 0 1440 24" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0 12c120-10 240-10 360 0s240 10 360 0 240-10 360 0 240 10 360 0v12H0Z" fill="currentColor"/>
+  </svg>
+</header>
+
+<main class="home-main">
+
+  <svg class="route-divider" viewBox="0 0 1100 34" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M10 24c90-18 180 18 270 0s180-18 270 0 180 18 270 0 180-18 260 0" />
+    <circle cx="10" cy="24" r="4.5" />
+    <circle cx="1080" cy="24" r="4.5" />
+  </svg>
+
+  <section class="home-about">
+    <div class="home-about-inner reveal">
+      <h2>What is Caraga?</h2>
+      <p>
+        Caraga is the Philippines' Region XIII, tucked into the northeastern shoulder of Mindanao where
+        the mountains meet the Pacific. Its regional center, Butuan City, is one of the oldest
+        settlements in the country  but most travelers know Caraga for what's outside the city:
+        Siargao's surf towns, Surigao del Sur's curtain-wide waterfalls, the wetlands of Agusan Marsh,
+        and quiet island provinces still figuring out tourism on their own terms. It's a real, working
+        region  plan around ferry schedules and rainy months, and it rewards you generously.
+      </p>
+      <p>
+        This guide sticks to five provinces and thirteen spots we'd actually bring a family to, each
+        one noted with an honest entrance fee, best season, and a plain read on how kid-friendly it is.
+      </p>
+    </div>
+  </section>
+
+  <section class="provinces" id="provinces">
+    <div class="provinces-heading reveal">
+      <h2>The five provinces</h2>
+      <p class="muted">Tap a province to jump straight to it on the interactive map.</p>
+    </div>
+
+    <div class="province-grid reveal-stagger">
+
+      <article class="province-card reveal-item" style="--prov-color:#1c98a0">
+        <a class="province-card-hero has-photo" href="index.html?province=Surigao%20del%20Norte" aria-label="Explore Surigao del Norte on the map">
+          <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Surigao%20Del%20Norte%20Provincial%20Capitol%20(Capitol%20Road%2C%20Surigao%20City%3B%2008-23-2023).jpg" alt="Surigao del Norte Provincial Capitol, Surigao City" loading="lazy" />
+          <span class="province-card-icon"><svg><use href=""/></svg></span>
+          <span class="province-card-credit"></span>
+        </a>
+        <div class="province-card-body">
+          <h3>Surigao del Norte</h3>
+          <p>Siargao's surf breaks and lagoon-hopping islands, plus mainland coves further north. The province most families picture when they think "Caraga."</p>
+          <div class="province-card-footer">
+            <span class="province-count">4 featured spots</span>
+            <a href="index.html?province=Surigao%20del%20Norte" class="province-explore">Explore <svg viewBox="0 0 24 24"><use href="#icon-arrow"/></svg></a>
+          </div>
+        </div>
+      </article>
+
+      <article class="province-card reveal-item" style="--prov-color:#2f6fa8">
+        <a class="province-card-hero has-photo" href="index.html?province=Surigao%20del%20Sur" aria-label="Explore Surigao del Sur on the map">
+          <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Cagwait%20White%20Beach%2C%20Cagwait%2C%20Surigao%20del%20Sur.jpg" alt="Cagwait White Beach, Surigao del Sur" loading="lazy" />
+          <span class="province-card-icon"><svg><use href=""/></svg></span>
+          <span class="province-card-credit"></span>
+        </a>
+        <div class="province-card-body">
+          <h3>Surigao del Sur</h3>
+          <p>Home to Tinuy-an Falls' Niagara-wide curtain and the impossibly blue Hinatuan Enchanted River, with the Britania Islands scattered offshore.</p>
+          <div class="province-card-footer">
+            <span class="province-count">3 featured spots</span>
+            <a href="index.html?province=Surigao%20del%20Sur" class="province-explore">Explore <svg viewBox="0 0 24 24"><use href="#icon-arrow"/></svg></a>
+          </div>
+        </div>
+      </article>
+
+      <article class="province-card reveal-item" style="--prov-color:#a1502f">
+        <a class="province-card-hero has-photo" href="index.html?province=Agusan%20del%20Norte" aria-label="Explore Agusan del Norte on the map">
+          <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Butuan%20City%20proper%20skyline%20(Butuan%2C%20Agusan%20Del%20Norte%3B%2008-24-2023).jpg" alt="Butuan City skyline, Agusan del Norte" loading="lazy" />
+          <span class="province-card-icon"><svg><use href=""/></svg></span>
+          <span class="province-card-credit"></span>
+        </a>
+        <div class="province-card-body">
+          <h3>Agusan del Norte</h3>
+          <p>The mainland gateway, anchored by Butuan City — one of the country's oldest settlements, with balangay boat pits and a regional museum to match.</p>
+          <div class="province-card-footer">
+            <span class="province-count">2 featured spots</span>
+            <a href="index.html?province=Agusan%20del%20Norte" class="province-explore">Explore <svg viewBox="0 0 24 24"><use href="#icon-arrow"/></svg></a>
+          </div>
+        </div>
+      </article>
+
+      <article class="province-card reveal-item" style="--prov-color:#4d7c3e">
+        <a class="province-card-hero has-photo" href="index.html?province=Agusan%20del%20Sur" aria-label="Explore Agusan del Sur on the map">
+          <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Agusan%20del%20Sur%20Provincial%20Capitol.jpg" alt="Agusan del Sur Provincial Capitol" loading="lazy" />
+          <span class="province-card-icon"><svg><use href=""/></svg></span>
+          <span class="province-card-credit"></span>
+        </a>
+        <div class="province-card-body">
+          <h3>Agusan del Sur</h3>
+          <p>A landlocked province built around the Agusan Marsh Wildlife Sanctuary — a floating-village wetland that's one of the country's great birdwatching sites.</p>
+          <div class="province-card-footer">
+            <span class="province-count">1 featured spot</span>
+            <a href="index.html?province=Agusan%20del%20Sur" class="province-explore">Explore <svg viewBox="0 0 24 24"><use href="#icon-arrow"/></svg></a>
+          </div>
+        </div>
+      </article>
+
+      <article class="province-card reveal-item" style="--prov-color:#e2a33a">
+        <a class="province-card-hero has-photo" href="index.html?province=Dinagat%20Islands" aria-label="Explore Dinagat Islands on the map">
+          <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Dinagat%20Islands%20Provincial%20Capitol.jpg" alt="Dinagat Islands Provincial Capitol, San Jose" loading="lazy" />
+          <span class="province-card-icon"><svg><use href=""/></svg></span>
+          <span class="province-card-credit"></span>
+        </a>
+        <div class="province-card-body">
+          <h3>Dinagat Islands</h3>
+          <p>The youngest and quietest province — hilly, mineral-rich, and dotted with hidden lakes and a tidal blue lagoon few outsiders make it to.</p>
+          <div class="province-card-footer">
+            <span class="province-count">3 featured spots</span>
+            <a href="index.html?province=Dinagat%20Islands" class="province-explore">Explore <svg viewBox="0 0 24 24"><use href="#icon-arrow"/></svg></a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <svg class="route-divider" viewBox="0 0 1100 34" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M10 12c90 18 180-18 270 0s180 18 270 0 180-18 270 0 180 18 260 0" />
+    <circle cx="10" cy="12" r="4.5" />
+    <circle cx="1080" cy="12" r="4.5" />
+  </svg>
+
+  <section class="home-final-cta">
+    <div class="home-final-cta-inner reveal">
+      <h2>Ready to plan the weekend?</h2>
+      <p>Filter by category, compare fees and family-friendliness, and follow one of two suggested day routes on the full interactive map.</p>
+      <a class="home-cta-primary" href="index.html">
+        <span>Explore the Caraga Map</span>
+        <svg viewBox="0 0 24 24"><use href="#icon-arrow"/></svg>
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="home-footer">
+  Boundaries are hand-refined approximations · Data: DOT Caraga, LGU tourism offices, OpenStreetMap contributors
+</footer>
+
+<script src="home.js"></script>
+</body>
+</html>
